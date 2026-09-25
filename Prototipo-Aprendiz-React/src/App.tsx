@@ -1,11 +1,10 @@
-import Login from "./components/login";
+import { RegistroUsuario } from "./components/RegistroUsuario";
 
 export default App;
 
 function App() {
 
-  return (
-    <Login />
-  );
-
+    return (
+        <RegistroUsuario />
+    );
 }
